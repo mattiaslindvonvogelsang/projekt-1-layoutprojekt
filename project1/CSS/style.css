@@ -1,3 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: serif;
+  font-family: sans-serif;
+  background: rgb(220, 220, 220);
+}
+
+.gContainer {
+  display: grid;
+  width: 70%;
+  margin: 0 auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 250px 250px 50px 500px 500px 250px 250px 50px 250px;
+  grid-template-areas:
+    "header1 header1 header1 header2 header2 header2"
+    "header1 header1 header1 header3 header3 header3"
+    "ntop ntop ntop ntop ntop ntop"
+    "main1 main1 main1 main1 main1 main1"
+    "main2 main2 main2 main2 main2 main2"
+    "box1 box1 box2 box2 box3 box3"
+    "box4 box4 box5 box5 box6 box6"
+    "nbot nbot nbot nbot nbot nbot"
+    "footer footer footer footer footer footer";
+}
+
+.header1 {
+  grid-area: header1;
+  display: flex;
+  flex-direction: column;
+  background: powderblue;
+}
+
+/* .header1B {
+  grid-area: header1b;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: powderblue; 
+}*/
+
+.header1black {
+  font-size: 14px;
+  align-self: flex-start;
+  line-height: 1.5;
+}
+
+.h1header1 {
+  align-self: flex-start;
+}
+.header1black a {
+  color: white;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.famcontainer {
+  width: 50%;
+  height: 50%;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+.fam {
+  width: 100%;
+  height: 100%;
+}
+.bHeader1 {
+  text-align: center;
+  border-radius: 25px;
+}
+.header2 {
+  grid-area: header2;
+  background: rgb(238, 85, 24);
+}
+
+.header3 {
+  grid-area: header3;
+  background: orange;
+}
+
+.nTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: ntop;
+  background: rgb(220, 220, 220);
+}
+
+/*a {
+  font-size: 12px;
+  font-weight: 700;
+  color: grey;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-decoration: none;
+  list-style: none;
+} */
+
+.active {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main1 {
+  grid-area: main1;
+  background: grey;
+}
+
+.main2 {
+  grid-area: main2;
+  background: orange;
+}
+
+.infobox1 {
+  grid-area: box1;
+  background: powderblue;
+}
+
+.infobox2 {
+  grid-area: box2;
+  background: white;
+}
+
+.infobox3 {
+  grid-area: box3;
+  background: rgb(220, 220, 220);
+}
+
+.infobox4 {
+  grid-area: box4;
+  background: white;
+}
+
+.infobox5 {
+  grid-area: box5;
+  background: rgb(238, 85, 24);
+}
+
+.infobox6 {
+  grid-area: box6;
+  background: white;
+}
+
+.nBot {
+  grid-area: nbot;
+  background: grey;
+}
+
+footer {
+  grid-area: footer;
+  background: rgb(75, 75, 75);
 }
