@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: sans-serif;
   background: rgb(220, 220, 220);
@@ -10,12 +6,13 @@ body {
 .gContainer {
   display: grid;
   width: 70%;
+  height: 100%;
   margin: 0 auto;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 250px 250px 50px 500px 500px 250px 250px 50px 250px;
   grid-template-areas:
-    "header1 header1 header1 header2 header2 header2"
-    "header1 header1 header1 header3 header3 header3"
+    "header1a header1a header1a header2 header2 header2"
+    "header1b header1b header1b header3 header3 header3"
     "ntop ntop ntop ntop ntop ntop"
     "main1 main1 main1 main1 main1 main1"
     "main2 main2 main2 main2 main2 main2"
@@ -25,50 +22,69 @@ body {
     "footer footer footer footer footer footer";
 }
 
-.header1 {
-  grid-area: header1;
+.header1A {
+  grid-area: header1a;
   display: flex;
   flex-direction: column;
   background: powderblue;
 }
 
-/* .header1B {
+.header1B {
   grid-area: header1b;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background: powderblue; 
-}*/
-
-.header1black {
-  font-size: 14px;
-  align-self: flex-start;
-  line-height: 1.5;
+  /*justify-content: center;
+  align-content: flex-start; */
+  background: powderblue;
 }
 
 .h1header1 {
   align-self: flex-start;
+  margin-top: 12%;
+  margin-left: 20%;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: -1%;
 }
-.header1black a {
-  color: white;
-  margin: 0;
+
+.pheader1 {
+  font-size: 14px;
+  align-self: flex-start;
   line-height: 1.5;
+  font-weight: 700;
+  margin-left: 20%;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .famcontainer {
-  width: 50%;
-  height: 50%;
+  width: 55%;
+  height: 105%;
   justify-self: flex-end;
   align-self: flex-end;
+  margin-bottom: 0;
+  padding: 0;
+  margin-right: 2%;
 }
+
 .fam {
   width: 100%;
   height: 100%;
 }
+
 .bHeader1 {
   text-align: center;
-  border-radius: 25px;
+  border-radius: 28px;
+  justify-self: flex-start;
+  align-self: flex-start;
+  margin-top: 8%;
+  margin-left: 20%;
+  margin-right: -15%;
+  font-weight: 700;
+  width: 160px;
+  height: 40px;
+  box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.5);
 }
+
 .header2 {
   grid-area: header2;
   background: rgb(238, 85, 24);
@@ -87,7 +103,7 @@ body {
   background: rgb(220, 220, 220);
 }
 
-/*a {
+a {
   font-size: 12px;
   font-weight: 700;
   color: grey;
@@ -95,7 +111,7 @@ body {
   margin-right: 5%;
   text-decoration: none;
   list-style: none;
-} */
+}
 
 .active {
   color: rgba(0, 0, 0, 0.8);
