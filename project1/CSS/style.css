@@ -9,7 +9,7 @@ body {
   height: 100%;
   margin: 0 auto;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 250px 250px 50px 500px 500px 250px 250px 50px 250px;
+  grid-template-rows: 250px 250px 50px 600px 600px 250px 250px 50px 250px;
   grid-template-areas:
     "header1a header1a header1a header2 header2 header2"
     "header1b header1b header1b header3 header3 header3"
@@ -134,10 +134,28 @@ a {
   grid-area: main1;
   background: grey;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  overflow-y: visible;
+}
+
+.mainh1 {
+  order: -1;
+  color: white;
+}
+
+.mainb {
+  order: 1;
+  text-align: center;
+  border-radius: 28px;
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+  box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.5);
+}
+
+.mainp1 {
+  order: 2;
+  margin-right: 10%;
 }
 
 .profilecard1,
@@ -148,8 +166,28 @@ a {
   height: 300px;
   width: 245px;
   overflow: visible;
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.profilecard1 {
+  order: 3;
+  margin-left: 9%;
+  margin-top: 22%;
+}
+
+.profilecard2 {
+  justify-self: center;
+  order: 4;
+  margin-top: 22%;
+}
+
+.profilecard3 {
+  justify-self: flex-end;
+  order: 5;
+  margin-top: 22%;
 }
 
 .imgc1,
@@ -213,10 +251,11 @@ h4 {
   background: orange;
   flex-direction: column;
   text-align: center;
+  overflow: hidden;
 }
 
 .mainh2 {
-  margin-top: 10%;
+  margin-top: 18%;
   color: white;
   line-height: 2.5;
   font-weight: 700;
