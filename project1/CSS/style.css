@@ -182,12 +182,20 @@ a {
   grid-area: main2;
   background: orange;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
+}
+
+.mainh2 {
+  margin-top: 10%;
+  color: white;
+  line-height: 2.5;
+  font-weight: 700;
 }
 
 .infobox1 {
   grid-area: box1;
   background: powderblue;
+  text-align: center;
 }
 
 .infobox2 {
