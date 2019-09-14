@@ -225,7 +225,9 @@ h4 {
 .infobox1 {
   grid-area: box1;
   background: powderblue;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .infobox2 {
@@ -233,9 +235,31 @@ h4 {
   background: white;
 }
 
+.infobox2 > h3 {
+  margin-left: 5%;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+.infop1 {
+  margin-top: 20%;
+  text-align: center;
+}
+
 .infobox3 {
   grid-area: box3;
   background: rgb(220, 220, 220);
+}
+
+.infobox3 > h3 {
+  margin-left: 5%;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+.infop2 {
+  margin-top: 20%;
+  text-align: center;
 }
 
 .infobox4 {
@@ -243,14 +267,47 @@ h4 {
   background: white;
 }
 
+.infobox4 > h3 {
+  margin-left: 5%;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+.infop3 {
+  margin-top: 20%;
+  text-align: center;
+}
+
 .infobox5 {
   grid-area: box5;
   background: rgb(238, 85, 24);
 }
 
+.infobox5 > h3 {
+  margin-left: 5%;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+.infop4 {
+  margin-top: 20%;
+  text-align: center;
+}
+
 .infobox6 {
   grid-area: box6;
   background: white;
+}
+
+.infobox6 > h3 {
+  margin-left: 5%;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+.infop5 {
+  margin-top: 20%;
+  text-align: center;
 }
 
 .nBot {
