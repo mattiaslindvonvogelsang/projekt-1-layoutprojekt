@@ -134,31 +134,48 @@ a {
   grid-area: main1;
   background: grey;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .profilecard1,
 .profilecard2,
 .profilecard3 {
-  background: white;
-  border-radius: 12px;
-  height: 40%;
+  border-radius: 8px;
+  height: 30%;
   width: 25%;
+  overflow: hidden;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.profilecard1 {
+  background: powderblue;
+}
+
+.profilecard2 {
+  background: orange;
+}
+
+.profilecard3 {
+  background: rgb(238, 85, 24);
 }
 
 .pcard1 {
   height: 100%;
   width: 60%;
+  margin-left: 22%;
 }
 
 .pcard2 {
   height: 100%;
   width: 60%;
+  margin-left: 22%;
 }
 
 .pcard3 {
   height: 100%;
-  width: 60%;
+  width: 85%;
+  margin-left: 10%;
 }
 
 .main2 {
