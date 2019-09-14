@@ -141,8 +141,8 @@ a {
 .profilecard2,
 .profilecard3 {
   border-radius: 8px;
-  height: 30%;
-  width: 25%;
+  height: 150px;
+  width: 250px;
   overflow: hidden;
   align-self: flex-end;
   justify-self: flex-end;
