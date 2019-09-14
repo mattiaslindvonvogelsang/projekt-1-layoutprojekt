@@ -222,12 +222,21 @@ h4 {
   font-weight: 700;
 }
 
+.mainp2 {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+
 .infobox1 {
   grid-area: box1;
   background: powderblue;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.infobox1 h1 {
+  text-align: center;
 }
 
 .infobox2 {
