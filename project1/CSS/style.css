@@ -141,6 +141,10 @@ a {
 .mainh1 {
   order: -1;
   color: white;
+  text-align: flex-start;
+  margin-left: 15%;
+  margin-bottom: -20%;
+  margin-top: 10%;
 }
 
 .mainb {
@@ -151,11 +155,21 @@ a {
   width: 150px;
   height: 40px;
   box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.5);
+  align-self: flex-end;
+  margin-top: -20%;
+  margin-right: 10%;
+  margin-left: -24%;
+  margin-bottom: 4%;
 }
 
 .mainp1 {
   order: 2;
   margin-right: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .profilecard1,
@@ -166,28 +180,26 @@ a {
   height: 300px;
   width: 245px;
   overflow: visible;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
   box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.5);
   z-index: 10;
+  margin-top: 8%;
 }
 
 .profilecard1 {
   order: 3;
-  margin-left: 9%;
-  margin-top: 22%;
+  margin-left: 11%;
 }
 
 .profilecard2 {
   justify-self: center;
   order: 4;
-  margin-top: 22%;
 }
 
 .profilecard3 {
   justify-self: flex-end;
   order: 5;
-  margin-top: 22%;
 }
 
 .imgc1,
