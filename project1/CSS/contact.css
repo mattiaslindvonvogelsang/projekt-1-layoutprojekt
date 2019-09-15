@@ -2,82 +2,87 @@
 /* CSS Document */
 
 body {
-  max-width: auto;
-  font-family: sans-serif;
+	max-width: auto;
 }
 
 .gcontainer {
-  max-width: 80%;
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 500px 50px 800px 500px 400px;
-  grid-template-areas:
-    "top top top top top top"
-    "nav nav nav nav nav nav"
-    "cont cont cont cont cont cont"
-    "visit visit visit visit visit visit"
-    "footer footer footer footer footer footer ";
+	
+	max-width: 80%;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: 500px 50px 800px 500px 400px;
+	grid-template-areas: "top top top top top top"
+		                 "nav nav nav nav nav nav"
+		                 "cont cont cont cont cont cont"
+		                 "visit visit visit visit visit visit"
+		                 "footer footer footer footer footer footer ";
 }
 
 .header {
-  background-color: rgb(199 221 234);
-  grid-area: top;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-right: 10%;
+	background-color: rgb(199 221 234);
+	grid-area:top;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-right: 10%;
+	
 }
 
 .top {
-  justify-self: flex-end;
-  align-self: flex-end;
+	justify-self: flex-end;
+	align-self: flex-end;
 }
 
 .header > h1 {
-  justify-self: center;
-  align-self: center;
-  padding-right: 7%;
-  padding-top: 14%;
-  font-size: 4rem;
+	justify-self: center;
+	align-self: center;
+	padding-right:7%;
+	padding-top:14%;
+	font-size: 4rem;
 }
 
+
 nav {
-  background: white;
-  grid-area: nav;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	background:white;
+	grid-area:nav;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 a {
-  padding: 0 7% 0 7%;
-  color: gray;
-  list-style: none;
-  text-decoration: none;
+	padding:0 7% 0 7%;
+	color:gray;
+	list-style: none;
+	text-decoration: none;
 }
 
 .active {
-  color: black;
-  font-weight: 800;
+	color:black;
+	font-weight: 800;
 }
 
 .content {
-  background: #938989;
-  grid-area: cont;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+	background:#938989;
+	grid-area: cont;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+	
 }
 
 .pod {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 h2 {
-  color: white;
-  align-self: center;
+	color: white;
+	align-self:center;
+	font-size: 3rem;
+		
 }
 
 /* h2 {
@@ -85,48 +90,71 @@ h2 {
 	padding-top: 15%;
 } */
 
-/*.h4 {
+ /*.h4 {
 	padding-top: 135%;
 } */
 
-.mess {
-  height: 25%;
-}
+
+
 
 h4 {
-  color: white;
+	color:white;
+
 }
 
+
 form {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-  justify-content: flex-end;
-  width: 25%;
-  margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+	justify-content: flex-end;
+	width:25%;
+	margin-top: 10%;
+	
+	
+	
 }
 
 button {
-  border-radius: 25px;
-  height: 55px;
-  margin-top: 10%;
-  width: 150px;
-  font-size: 11px;
-  font-weight: bold;
+	border-radius: 25px;
+	height: 55px;
+	margin-top: 10%;
+	width: 150px;
+	font-size: 11px;
+	font-weight: bold;
 }
 
+.mail {
+	width:300px;
+	border-radius: 5px;
+}
+
+.mess {
+	width:300px;
+	height: 200px;
+	border-radius: 5px;
+}
+
+
+
+
+
+
 .imgb {
-  grid-area: visit;
-  display: flex;
-  height: auto;
-  margin-bottom: 0px;
+	grid-area: visit;
+	display:flex;
+	height: auto;
+	margin-bottom: 0px;
 }
 
 .visit {
-  width: 100%;
+	width: 100%;
 }
 
 footer {
-  background: #5b5b5b;
-  grid-area: footer;
+	background: #5B5B5B;
+	grid-area: footer;
+	
 }
+
+
