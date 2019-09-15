@@ -15,7 +15,7 @@ body {
   height: 100%;
   margin: 0 auto;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 250px 250px 50px 625px 625px 250px 250px 50px 250px;
+  grid-template-rows: 250px 250px 75px 625px 625px 250px 250px 75px 250px;
   grid-template-areas:
     "header1a header1a header1a header2 header2 header2"
     "header1b header1b header1b header3 header3 header3"
@@ -376,7 +376,6 @@ h4 {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
   margin: 0;
-  margin-top: -1%;
 }
 
 .arrow {
