@@ -3,6 +3,12 @@ body {
   background: rgb(220, 220, 220);
 }
 
+#top {
+  size: 0vw;
+  padding: 0;
+  margin: 0;
+}
+
 .gContainer {
   display: grid;
   width: 70%;
@@ -368,6 +374,8 @@ h4 {
 
 .tmu {
   font-size: 1.1vw;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
   margin: 0;
   margin-top: -1%;
 }
