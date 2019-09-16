@@ -3,12 +3,16 @@
 
 body {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(220, 220, 220);
 }
 .gcontainer {
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 26% 5% 45% 26% 20%; /* 500px 50px 800px 500px 400px; */
+  grid-template-rows: 26% 5% 45% 30% 20%; /* 500px 50px 800px 500px 400px; */
   grid-template-areas:
     "top top top top top top"
     "nav nav nav nav nav nav"
@@ -31,18 +35,22 @@ body {
   align-self: flex-end;
 }
 
+img {
+  width: 20%;
+  height: 100%;
+}
+
 .header > h1 {
   justify-self: center;
   align-self: center;
   padding-right: 7%;
   padding-top: 14%;
   font-size: 4vw;
-  margin-right: 5%;
   margin-bottom: 15%;
 }
 
 nav {
-  background: white;
+  background: rgb(220, 220, 220);
   grid-area: nav;
   display: flex;
   justify-content: center;
@@ -54,7 +62,8 @@ a {
   color: gray;
   list-style: none;
   text-decoration: none;
-  font-size: 1.1vw;
+  font-size: 0.9vw;
+  font-weight: 700;
 }
 
 .active {
@@ -78,7 +87,10 @@ a {
 h2 {
   color: white;
   align-self: center;
+  justify-self: center;
   font-size: 4vw;
+  margin-bottom: 15%;
+  margin-right: -5%;
 }
 
 /* h2 {
@@ -91,7 +103,7 @@ h2 {
 } */
 
 h4 {
-  color: white;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 1.2vw;
 }
 
@@ -102,30 +114,40 @@ form {
   justify-content: flex-end;
   width: 25%;
   margin-top: 10%;
+  overflow-wrap: break-word;
+  margin-right: 10%;
 }
 
 button {
-  border-radius: 25px;
-  height: 25%;
+  border-radius: 32px;
+  height: 40%;
   margin-top: 10%;
-  width: 40%;
+  width: 70%;
   font-size: 0.8vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 8%;
+  box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.5);
+  padding-bottom: 8%;
+  margin-top: 20%;
   font-weight: bold;
-  margin-left: 45%;
+  margin-left: 62%;
 }
 
 .mail {
-  width: 100%;
+  width: 120%;
+  padding: 5%;
   border-radius: 5px;
+  margin-right: 20%;
 }
 
 .mess {
-  width: 100%; /* 300px; */
-  height: 100%; /* 200px; */
+  width: 124%;
+  height: 100%;
   padding-bottom: 50%;
   border-radius: 5px;
+  padding-top: 5%;
+  margin-right: 20%;
+  padding-left: 5%;
+  word-break: break-word;
 }
 
 .imgb {
