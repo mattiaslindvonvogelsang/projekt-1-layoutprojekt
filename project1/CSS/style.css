@@ -16,7 +16,6 @@ body {
   margin: 0 auto;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 10% 10% 3% 26% 26% 10% 10% 3% 10%;
-  /* 250px 250px 75px 625px 625px 250px 250px 75px 250px; */
   grid-template-areas:
     "header1a header1a header1a header2 header2 header2"
     "header1b header1b header1b header3 header3 header3"
