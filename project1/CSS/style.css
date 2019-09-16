@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: "DM Serif Text", serif;
   background: rgb(220, 220, 220);
 }
 
@@ -43,7 +43,7 @@ body {
 
 .h1header1 {
   align-self: flex-start;
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left: 18%;
   font-weight: 700;
   font-size: 2vw;
@@ -51,7 +51,7 @@ body {
 }
 
 .pheader1 {
-  font-size: 14px;
+  font-size: 0.6vw;
   align-self: flex-start;
   line-height: 1.5;
   margin-left: 18%;
@@ -168,7 +168,7 @@ a {
   align-self: flex-end;
   margin-top: -20%;
   margin-right: 10%;
-  margin-left: -25%;
+  margin-left: -23%;
   margin-bottom: 4%;
 }
 
