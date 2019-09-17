@@ -41,7 +41,7 @@ body {
   background: powderblue;
 }
 
-.h1header1 {
+.header1Ah1 {
   align-self: flex-start;
   margin-top: 12%;
   margin-left: 18%;
@@ -50,7 +50,7 @@ body {
   margin-bottom: -1%;
 }
 
-.pheader1 {
+.header1Ap {
   font-size: 0.6vw;
   align-self: flex-start;
   line-height: 1.5;
@@ -76,7 +76,7 @@ body {
   height: 100%;
 }
 
-.bHeader1 {
+.header1Bbtn {
   text-align: center;
   font-size: 0.8vw;
   border-radius: 28px;
@@ -156,7 +156,7 @@ a {
   margin-top: 12%;
 }
 
-.mainb {
+.main1btn {
   order: 1;
   text-align: center;
   border-radius: 28px;
