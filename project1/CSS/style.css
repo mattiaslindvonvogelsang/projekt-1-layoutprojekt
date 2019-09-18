@@ -204,12 +204,10 @@ a {
 }
 
 .profilecard2 {
-  justify-self: center;
   order: 4;
 }
 
 .profilecard3 {
-  justify-self: flex-end;
   order: 5;
 }
 
